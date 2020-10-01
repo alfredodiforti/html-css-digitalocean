@@ -50,6 +50,9 @@
 .navbar-header .navbar-toogle:hover {
   background-color: white;
 }
+.navbar-default .navbar-toggle:hover {
+    background-color: white;
+}
 .navbar-default .navbar-toggle {
   border-color: transparent;
 }
@@ -60,6 +63,11 @@
   color: #2586fd;
   border-color: #2586fd;
 }
+.btn-default:hover {
+    color: #2586fd;
+    border-color: #2586fd;
+    background-color: white;
+  }
 /* BIGBLUE */
 .bigblue{
   background-image: url(../img/bg-banner-home.jpg);
@@ -79,11 +87,64 @@
   font-weight: 600;
   padding-bottom: 80px;
 }
+.minibox {
+  width: 100%;
+  height: 360px;
+  background: white;
+  margin-top: 5px;
+  border-radius: 2%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.minibox h2 {
+  padding-top: 40px;
+  font-weight: 600;
+  font-size: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #031c4e;
+}
+.minibox h3 {
+  font-weight: 600;
+  font-size: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #006aff;
+}
+.form-group {
+  max-width: 90%;
+  margin: auto;
+  margin-bottom: 7px;
+  margin-bottom: 7px;
+}
+.minibox button {
+  width: 90%;
+  margin-bottom: 7px;
+}
+.minibox button:first-child {
+  background-color: #579aff;
+  border-color: transparent;
+}
+.minibox button:last-child {
+  background-color: white;
+  border-color: transparent;
+  color: #626262;
+  position: relative;
+  box-shadow: 4px 4px 10px #e3e3e3;
+}
+.minibox button img {
+  width: 16px;
+  position: absolute;
+  left: 7px;
+}
 
   /* MEDIA QUERY FROM TABLET*/
   @media screen and (min-width:768px) {
     .navbar-brand img {
       margin-right: 70px;
+    }
+    .minibox {
+      margin-top: 65px;
     }
   }
   /* MEDIA QUERY FROM DESKTOP */
