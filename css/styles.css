@@ -1,0 +1,80 @@
+/* GENERAL STYLE */
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER */
+/* NAVBAR */
+.navbar-default {
+  background: white;
+  border-color: white;
+  border-radius: none;
+}
+.navbar-brand img {
+  width: 170px;
+}
+.navbar-brand {
+  height: auto;
+  padding-top: 17.5px;
+  padding-bottom: 17.5px;
+}
+.navbar-nav > li {
+  display: inline;
+  vertical-align: middle;
+}
+.navbar-nav > li > a {
+    padding-top: 23.5px;
+    padding-bottom: 23.5px;
+}
+.navbar-right > li:last-child > a {
+  padding-top: 16.5px;
+  padding-bottom: 16.5px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #142b58;
+    font-size: 15px;
+    font-weight: 600;
+}
+.nav > li > a {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+.navbar-toggle {
+  margin-top: 18px;
+  background-color: white;
+}
+.navbar-header .navbar-toogle:hover {
+  background-color: white;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #2386fd;
+}
+.btn-default {
+  color: #2586fd;
+  border-color: #2586fd;
+}
+  /* MEDIA QUERY FROM TABLET*/
+  @media screen and (min-width:768px) {
+    .navbar-brand img {
+      margin-right: 70px;
+    }
+  }
+  /* MEDIAQUERY FIX HAMBURGHER */
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+      /* Mostra hamburger */
+      .navbar-toggle {
+          display: block;
+          position: absolute;
+          right: 0;
+      }
+      /* Nascondi contenitore menu */
+      .navbar-collapse {
+          display: none;
+      }
+  }
