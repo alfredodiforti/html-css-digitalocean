@@ -2,6 +2,7 @@
 * {
   font-family: 'Montserrat', sans-serif;
 }
+/* UTILITIES */
 
 /* HEADER */
 /* NAVBAR */
@@ -59,11 +60,38 @@
   color: #2586fd;
   border-color: #2586fd;
 }
+/* BIGBLUE */
+.bigblue{
+  background-image: url(../img/bg-banner-home.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.bigblue h1 {
+  color: white;
+  font-size: 33px;
+  font-weight: 600;
+  padding-top: 80px;
+}
+.bigblue p {
+  font-size: 20px;
+  color: #bbcdff;
+  font-weight: 600;
+  padding-bottom: 80px;
+}
+
   /* MEDIA QUERY FROM TABLET*/
   @media screen and (min-width:768px) {
     .navbar-brand img {
       margin-right: 70px;
     }
+  }
+  /* MEDIA QUERY FROM DESKTOP */
+  @media screen and (min-width:992px) {
+    .bigblue h1 {
+      font-size: 54px;
+    }
+
   }
   /* MEDIAQUERY FIX HAMBURGHER */
   @media screen and (min-width: 768px) and (max-width: 991px) {
