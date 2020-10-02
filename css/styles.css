@@ -65,7 +65,7 @@
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #2386fd;
 }
-.btn-dafault {
+.btn-default {
   color: #2586fd;
   border-color: #2586fd;
 }
@@ -74,9 +74,13 @@
     border-color: #2586fd;
     background-color: white;
   }
-  .btn:hover {
-    color: #2586fd;
-  }
+
+  .navbar-right .btn-default:active {
+      color: #2586fd;
+      border-color: #2586fd;
+      background-color: white;
+    }
+
 
 /* BIGBLUE */
 .bigblue{
