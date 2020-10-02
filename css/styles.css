@@ -9,9 +9,6 @@
 .textcenter {
   text-align: center;
 }
-.maxwidth {
-  max-width: 100%
-}
 
 /* HEADER */
 /* NAVBAR */
@@ -76,20 +73,11 @@
     color: #2586fd;
     border-color: #2586fd;
     background-color: white;
-    box-shadow: none;
   }
-  .btn-default.active, .btn-default:active, .open > .dropdown-toggle.btn-default,
-  .btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open > .dropdown-toggle.btn-default.focus, .open > .dropdown-toggle.btn-default:focus, .open > .dropdown-toggle.btn-default:hover {
+  .btn:hover {
     color: #2586fd;
-    background-color: white;
-    border-color: #2586fd;
   }
-  /* .btn-default:active {
-      color: #2586fd;
-      border-color: #2586fd;
-      background-color: white;
-      box-shadow: none;
-    } */
+
 /* BIGBLUE */
 .bigblue{
   background-image: url(../img/bg-banner-home.jpg);
@@ -163,27 +151,36 @@
 .Backlightgrey {
   background-color: #f3f5f9;
   width: 100%;
+  padding-bottom: 30px;
 }
 .Backlightgrey h4 {
   color: #6f7b97;
   padding-top: 40px;
   font-weight: 600;
   font-size: 16px;
+  padding-bottom: 40px;
+}
+.Backlightgrey ul li {
+  display: inline-block;
+  width: calc(100% / 2 - 5px);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.Backlightgrey ul li a img {
+  max-width: 100%;
+}
+.Backlightgrey ul {
+  padding-left: 0px;
+}
+.Backlightgrey h6 a {
+  font-size: 18px;
+  font-weight: 600;
+}
+.Backlightgrey h6 a i {
+  position: relative;
+  top: 2px;
 }
 
-.Backlightgrey .img img {
-  max-width: 300px;
-  max-height: 100%;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-.Backlightgrey .img img:last-child {
-  padding-top: 50px;
-  max-width: 100%
-}
-.Backlightgrey .img {
-  text-align: center;
-}
 
 
   /* MEDIA QUERY FROM TABLET*/
@@ -193,6 +190,11 @@
     }
     .minibox {
       margin-top: 65px;
+    }
+    .Backlightgrey ul li {
+      width: calc(100% / 6 - 5px);
+      padding-left: 5px;
+      padding-right: 5px;
     }
   }
   /* MEDIA QUERY FROM DESKTOP */
