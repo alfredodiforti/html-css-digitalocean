@@ -3,6 +3,15 @@
   font-family: 'Montserrat', sans-serif;
 }
 /* UTILITIES */
+.textgrey {
+  color: #bbcdff;
+}
+.textcenter {
+  text-align: center;
+}
+.maxwidth {
+  max-width: 100%
+}
 
 /* HEADER */
 /* NAVBAR */
@@ -59,7 +68,7 @@
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #2386fd;
 }
-.btn-default {
+.btn-dafault {
   color: #2586fd;
   border-color: #2586fd;
 }
@@ -67,7 +76,20 @@
     color: #2586fd;
     border-color: #2586fd;
     background-color: white;
+    box-shadow: none;
   }
+  .btn-default.active, .btn-default:active, .open > .dropdown-toggle.btn-default,
+  .btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open > .dropdown-toggle.btn-default.focus, .open > .dropdown-toggle.btn-default:focus, .open > .dropdown-toggle.btn-default:hover {
+    color: #2586fd;
+    background-color: white;
+    border-color: #2586fd;
+  }
+  /* .btn-default:active {
+      color: #2586fd;
+      border-color: #2586fd;
+      background-color: white;
+      box-shadow: none;
+    } */
 /* BIGBLUE */
 .bigblue{
   background-image: url(../img/bg-banner-home.jpg);
@@ -137,6 +159,32 @@
   position: absolute;
   left: 7px;
 }
+/* LIGHTGREY */
+.Backlightgrey {
+  background-color: #f3f5f9;
+  width: 100%;
+}
+.Backlightgrey h4 {
+  color: #6f7b97;
+  padding-top: 40px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.Backlightgrey .img img {
+  max-width: 300px;
+  max-height: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.Backlightgrey .img img:last-child {
+  padding-top: 50px;
+  max-width: 100%
+}
+.Backlightgrey .img {
+  text-align: center;
+}
+
 
   /* MEDIA QUERY FROM TABLET*/
   @media screen and (min-width:768px) {
