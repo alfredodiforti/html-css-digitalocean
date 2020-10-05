@@ -377,7 +377,7 @@
 /* FOOTER */
 .footer {
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 100px;
   background-color: #031c4e;
 }
 .footer h4 {
@@ -413,7 +413,66 @@
 .footer .linkfooter h4 {
   line-height: 25px;
 }
-
+/* HELPER */
+.help {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 50px;
+  height: 50px;
+  background-color: #006aff;
+  border-radius: 4px;
+}
+.help img {
+  width: 50px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.help .counter {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  text-align: center;
+  position: absolute;
+  right: 0px;
+  transform: translate(50% , -50%);
+  border-radius: 50%;
+  border: 2px solid white;
+  color: white;
+}
+.help .counter span {
+  position: relative;
+  bottom: 2px;
+}
+.texthelp {
+  position: fixed;
+  bottom: 40px;
+  right: 100px;
+  max-width: 360px;
+  height: 60px;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid grey;
+  padding: 3px;
+  padding-left: 5px;
+}
+.texthelp .triangle {
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg) translateX(80%);
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 35%;
+  border-top: 1px solid grey;
+  border-right: 1px solid grey;
+}
+.texthelp p {
+  color: #142b58;
+  font-weight: 600;
+  font-size: 13px;
+}
 
 
   /* MEDIA QUERY FROM TABLET*/
