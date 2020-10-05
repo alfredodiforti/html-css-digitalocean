@@ -46,7 +46,6 @@
     text-align: left;
 }
 
-
 /* HEADER */
 /* NAVBAR */
 .navbar-default {
@@ -216,6 +215,8 @@
 .Backlightgrey h6 a {
   font-size: 18px;
   font-weight: 600;
+  color: #006aff;
+  font-size: 14px;
 }
 .Backlightgrey h6 a i {
   position: relative;
@@ -292,7 +293,7 @@
   background: rgb(0,30,153);
   background: linear-gradient(0deg, rgba(0,30,153,1) 0%, rgba(0,71,197,1) 100%);
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 100px;
 }
 .blueocean h2 {
   color: white;
@@ -347,6 +348,10 @@
 .secondblue .name {
  font-weight: 600;
  margin-bottom: 0px;
+}
+.secondblue a {
+  color: #006aff;
+  font-weight: 600;
 }
 /* MINIBLU */
 .miniblu {
